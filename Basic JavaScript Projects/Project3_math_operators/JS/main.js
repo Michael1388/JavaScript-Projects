@@ -18,3 +18,9 @@ function division() {
     var d_d = 48 / 6;
     document.getElementById("divide").innerHTML = " " + d_d;
 }
+
+function multiple_ops() {
+    var multi = (1 + 2) * 10 / 2 -5;
+    document.getElementById("get_multi").innerHTML = " " + multi;
+    
+}
