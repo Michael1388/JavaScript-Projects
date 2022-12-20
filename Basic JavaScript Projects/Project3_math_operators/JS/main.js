@@ -22,5 +22,9 @@ function division() {
 function multiple_ops() {
     var multi = (1 + 2) * 10 / 2 -5;
     document.getElementById("get_multi").innerHTML = " " + multi;
-    
+}
+
+function modulous_op() {
+    var mod_op = 29 % 3;
+    document.getElementById("remainder").innerHTML = " " + mod_op;
 }
