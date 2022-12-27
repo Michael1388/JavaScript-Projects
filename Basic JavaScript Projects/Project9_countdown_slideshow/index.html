@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project 9 | Slideshow</title>
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+    </head>
+    <body>
+
+        <!--Slideshow container-->
+        <div class="slideshow-container">
+
+            <!--Full width inages with number and caption text-->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./img/car1.jpg" style="width:100%">
+                <div class="text">Shelby Cobra (Carroll Shelby; Ford)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./img/car2.jpg" style="width:100%">
+                <div class="text">British Banger</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./img/car3.jpg" style="width:100%">
+                <div class="text">Chevy SS</div>
+            </div>
+
+            <!--Next and Previous Buttons-->
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!--Dots and Circles-->
+        <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+
+
+        <script src="JS/main.js"></script> <!-- name the JavaScript source file to access our scripts -->
+    </body>
+
+</html>
