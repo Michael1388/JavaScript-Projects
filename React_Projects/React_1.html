@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>React | ing </title>
+        <meta name="description" content="A basic HTML, CSS and JavaScript Calculator">
+        <meta name="author" content="Michael LaRocca">
+        
+        <!--Link to a local file: 
+           
+            <script src="react.js"></script>
+            <script src="react-dom.js"></script> -->
+
+        <!-- or you can link directly to a URL -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react-dom.js"></script>
+    
+    </head>
+
+    <body>
+        <div id="My_React_Code"></div>
+        <script>
+            var Counter = React.createClass({
+                render: function() {
+                    var time_Passed = Math.round(this.props.time_Passed / 100);
+                    var seconds_Passed = time_Passed / 10 + (time_Passed % 10 ? '' : '.0' );
+                    var text = 'My React code started running ' + 
+                     seconds_Passed + ' seconds ago!';
+                    return React.DOM.p(null, text);
+                }
+            });
+
+            var counter_Factory = React.createFactory(Counter);
+
+            var start_Counting = new Date().getTime();
+            setInterval(function() {
+                ReactDOM.render(
+                    counter_Factory({time_Passed: new Date().getTime() - start_Counting}),
+                    document.getElementById('My_React_Code')
+                );
+            }, 50);
+        </script>
+    </body>
+
+</html>
