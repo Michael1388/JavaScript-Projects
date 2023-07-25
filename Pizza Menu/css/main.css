@@ -1,0 +1,97 @@
+
+body {
+    background-color: rgb(225, 215, 184);
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: rgb(15, 83, 25);
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: justify;
+    color: rgb(15, 83, 25);
+}
+
+div   {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 83, 25);
+    text-align: justify;
+}
+
+#menuBG {
+    width: 600px;
+    height: 670px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.meat {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.veggie {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#cart {
+top: 0; 
+margin: 0px auto;
+width: 400px;
+height: 200px;
+}
+
+#btnOrder {
+    margin: 30px 0px 10px 30px;
+    width: 100px;
+    height: 40px;
+
+}
+
+#footer {
+    position: absolute; /* keep it at the bottom */
+    bottom: 0; /* keep it at the bottom */
+    width: 100%;
+    padding: 2%; /*this gives the footer padding that is equal to 2% of the width of the element's area */
+    background-color: white;
+    text-align: center;
+    
+}
