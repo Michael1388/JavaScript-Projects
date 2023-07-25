@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Todo | app </title>
+        <meta name="description" content="A basic HTML, CSS and JavaScript To Do App">
+        <meta name="author" content="Michael LaRocca">
+        <link rel="stylesheet" href="css/todo.css">
+    </head>
+
+    <body>
+        <!-- TO DO -->
+        <p> Click below to type and then click "Add Item" button</p>
+            <hr>
+            <div class="container_button">
+            <input id="task"><button id="add">Add Item</button>
+        </div>
+
+        <hr>
+            <div id="todos"></div>
+
+        <!-- OnDBLclick() event example-->
+        <div>
+            <p id="double" ondblclick="dbl_Function()">Refresh to remove an item</p>
+        
+        <script>
+            function dbl_Function() {
+                document.getElementById("double").style.color= "blue";
+            }
+        </script>
+        </div>
+
+        <script src="js/todo.js"></script>
+    </body>
+
+
+    <!---footer---->
+    <footer>
+        <p>
+        <p class="center">&copy <a> Michael La Rocca 2023</a></p>
+        <br>
+    </p>
+    </footer>
+
+</html>

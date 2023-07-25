@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> JSON | Todo app | JS Methods </title>
+        <meta name="description" content="A basic HTML, CSS and JavaScript To Do App">
+        <meta name="author" content="Michael LaRocca">
+        <link rel="stylesheet" href="css/todo.css">
+    </head>
+
+    <body>
+        <!-- TO DO -->
+        <div class="container_add">
+            <input id="task"><button id="add">JSON</button>
+        </div>
+            
+        <hr>
+            <div id="todos"></div>
+
+            <!-- JSON SRINGIFY() method (and JSON PARSE() method further down)-->
+            <div>
+                <p id="myDog"></p>
+                <script>
+                    /* JavaScript dictionary Object*/
+                    var dog = {name: "Jack", breed: "Great Pyrenees", color: "White"};
+                    /* convert JavaScript objects to string format */
+                    var JSONstring = JSON.stringify(dog);
+                    document.getElementById("myDog").innerHTML = JSONstring;
+
+                </script>
+                <hr>
+            </div>
+            <!-- JSON PARSE() method-->
+      
+            <div>
+                <p id="theDog"></p>
+
+                <script>
+                    /* THis is a JSON string variable*/
+                    var dog = '{"name": "Jack", "breed": "Great Pyrenees", "color": "White"}';
+                    /* convert Json strings to JavaScript objects */
+                    var JSONstring = JSON.parse(dog);
+                    document.getElementById("theDog").innerHTML = JSONstring.name + " the " + JSONstring.breed;
+
+                </script>
+                <hr>
+            </div>
+        <!-- END JSON SRINGIFY() method and JSON PARSE() method DEMO-->
+
+        <!-- LocalStorage() method-->
+
+        <p id="mojoDogo"></p>
+            <script>
+                /* set the data as a key/value pair to be saved locally in your browser*/
+                localStorage.setItem("Name", "Mojo Dog");
+
+                /* then use the key "Name" to return its value "Jack" */
+                document.getElementById("mojoDogo").innerHTML = localStorage.getItem("Name");
+
+
+            </script>
+
+        <!-- ENd LocalStorage() method-->
+        
+    </body>
+
+
+    <!---footer---->
+    <footer>
+        <p>
+        <p class="center">&copy <a> Michael La Rocca 2023</a></p>
+        <br>
+    </p>
+    </footer>
+
+</html>

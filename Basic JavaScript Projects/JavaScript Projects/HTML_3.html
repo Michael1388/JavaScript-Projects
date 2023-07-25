@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Stocks | Data Attributes </title>
+        <link rel="stylesheet" href="./CSS/CSS_1.css"> 
+        <script src="./Javascript/JavaScript_3.js" defer></script>
+    </head>
+    <body>
+
+       <h2 style="font-size:2vw;">Stocks</h2>
+       <h3>Click on a Company to see its (ticker symbol)</h3>
+
+       <ul>
+        <li onclick="displayType(this)" id="Nyse"
+        data-character-type="(MSFT)">Microsoft</li>
+        <li onclick="displayType(this)" id="Apple"
+        data-character-type="(AAPL)">Apple</li> 
+        <li onclick="displayType(this)" id="Ti"
+        data-character-type="(TXN)">Texas Instruments</li> 
+        <li onclick="displayType(this)" id="Tsmc"
+        data-character-type="(TSMC)">Taiwan Semiconductor</li>  
+       </ul>
+
+
+
+    </body>
+
+</html>
