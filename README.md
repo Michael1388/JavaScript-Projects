@@ -13,7 +13,7 @@ This basic HTML page incorporating JS into a cart and menu to choose various siz
 
 This was and is still alot of fun! The page was creaed and styled using Basic HTML and CSS and adds newly learned skills using JS to create an interactive user versus computer tic tac toe game with sounds and celebrations.
 
-[Calculator](https://github.com/Michael1388/Calculator)
+[Calculator](https://github.com/Michael1388/JavaScript-Projects/tree/main/Calculator)
 
 A basic 4 function calculator project.
 
