@@ -4,15 +4,15 @@
 You can browse around if you'd like.
 
 
-[Tic Tac Toe Game](https://github.com/Michael1388/JavaScript-Projects/tree/main/TicTacToe)
+[Tic Tac Toe Game](https://github.com/Michael1388/JavaScript-Projects/tree/main/TicTacToe) [Would you like to play a game?](http://michael-larocca.com/TicTacToe/TicTacToe.html)
 
 This was and is still a lot of fun! The page was created and styled using Basic HTML and CSS and adds newly learned skills using JS to create an interactive user versus computer tic-tac-toe game with sounds and celebrations.
 
-After reviewing the code you can [play a game!](http://michael-larocca.com/TicTacToe/TicTacToe.html)
 
 [Calculator](https://github.com/Michael1388/JavaScript-Projects/tree/main/Calculator)
 
 A basic 4-function calculator project.
+
 
 [PIZZA MENU](https://github.com/Michael1388/JavaScript-Projects/tree/main/Pizza%20Menu)
 
