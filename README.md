@@ -1,5 +1,5 @@
 # JavaScript Projects
- This is my JavaScript school projects folder. 
+ This is my JavaScript projects folder. 
  It will contain all code written while in this JavaScript course section of boot camp.
 You can browse around if you'd like.
 
