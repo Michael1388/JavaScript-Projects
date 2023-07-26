@@ -7,6 +7,7 @@ You can browse around if you'd like.
 [Tic Tac Toe Game](https://github.com/Michael1388/JavaScript-Projects/tree/main/TicTacToe) 
 
 This was and is still a lot of fun! The page was created and styled using Basic HTML and CSS and adds newly learned skills using JS to create an interactive user versus computer tic-tac-toe game with sounds and celebrations.
+
 [Would you like to play a game?](http://michael-larocca.com/TicTacToe/TicTacToe.html)
 
 [Calculator](https://github.com/Michael1388/JavaScript-Projects/tree/main/Calculator)
