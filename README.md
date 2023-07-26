@@ -9,7 +9,7 @@ Feel free to browse around.
 This basic HTML page incorporating JS into a cart and menu to choose various sizes, toppings and see a running and final total.
 
 
-[Tic Tac Toe Game](https://github.com/Michael1388/TicTacToe)
+[Tic Tac Toe Game](https://github.com/Michael1388/JavaScript-Projects/tree/main/TicTacToe)
 
 This was and is still alot of fun! The page was creaed and styled using Basic HTML and CSS and adds newly learned skills using JS to create an interactive user versus computer tic tac toe game with sounds and celebrations.
 
